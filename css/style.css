@@ -1,0 +1,106 @@
+.rounded-img {
+  width: 60%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 0.6em;
+  margin-bottom: 1em;
+}
+
+.card {
+  border-radius: 1em;
+  text-align: center;
+  padding: auto;
+}
+
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  border-radius: 0.9em;
+}
+
+/* Carousel */
+.my-carousel{
+  padding: 0;
+}
+
+.my-carousel .carousel-item{
+  display: flex;
+  max-height: 500px;
+}
+
+.my-carousel .carousel-item img{
+  object-fit: cover;
+}
+
+.my-carousel .carousel-item h5{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.signup {
+  height: 100vh;
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  border: unset;
+  border-bottom: 2px solid #e3e3e3;
+  outline: none;
+}
+
+button {
+  padding: 10px;
+  background: #e3e3e3;
+  border: unset;
+  cursor: pointer;
+}
+
+a {
+  color: #7c9ab7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.msg {
+  border: 2px solid #ffa908;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logout {
+  color: #f7ab39;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.profile {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
